@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1900F4EB244C3C1E00D2C36D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1900F4EA244C3C1E00D2C36D /* Constant.swift */; };
+		19B40023244C42D900ECB4EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B40021244C42D900ECB4EC /* LoginViewController.swift */; };
+		19B40024244C42D900ECB4EC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B40022244C42D900ECB4EC /* LoginViewController.xib */; };
 		19E347F2244C33AD0005489F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E347F1244C33AD0005489F /* AppDelegate.swift */; };
 		19E347F4244C33AD0005489F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E347F3244C33AD0005489F /* SceneDelegate.swift */; };
 		19E347F6244C33AD0005489F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E347F5244C33AD0005489F /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		1900F4EA244C3C1E00D2C36D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		19B40021244C42D900ECB4EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		19B40022244C42D900ECB4EC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		19E347EE244C33AD0005489F /* MyFirstGithubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstGithubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E347F1244C33AD0005489F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19E347F3244C33AD0005489F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				19E347FA244C33B00005489F /* Assets.xcassets */,
 				19E347FC244C33B00005489F /* LaunchScreen.storyboard */,
 				19E347FF244C33B00005489F /* Info.plist */,
+				19B40021244C42D900ECB4EC /* LoginViewController.swift */,
+				19B40022244C42D900ECB4EC /* LoginViewController.xib */,
 			);
 			path = MyFirstGithubApp;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B40024244C42D900ECB4EC /* LoginViewController.xib in Resources */,
 				19E347FE244C33B00005489F /* LaunchScreen.storyboard in Resources */,
 				19E347FB244C33B00005489F /* Assets.xcassets in Resources */,
 				19E347F9244C33AD0005489F /* Main.storyboard in Resources */,
@@ -144,6 +151,7 @@
 				19E347F6244C33AD0005489F /* ViewController.swift in Sources */,
 				19E347F2244C33AD0005489F /* AppDelegate.swift in Sources */,
 				19E347F4244C33AD0005489F /* SceneDelegate.swift in Sources */,
+				19B40023244C42D900ECB4EC /* LoginViewController.swift in Sources */,
 				1900F4EB244C3C1E00D2C36D /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
